@@ -1,11 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import '../styles/NotFound.css'
 const Error404 = () =>
 (
-    <div>
+    <div className="container notFound">
         <h2>Error 404</h2>
-        <Link to="/">Home</Link>
+        <Link className="link notFound" to="/">
+            <div className="btn btn_notFound notFound">Home</div>
+        </Link>
     </div>
 )
 
