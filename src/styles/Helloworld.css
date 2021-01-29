@@ -1,1 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
 
+.helloWorld {
+	/* background-color: brown; */
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Roboto Mono', monospace;
+}
+
+.helloWorld h1 {
+	font-size: 80px;
+}
+
+.btn_hello {
+	border: 1px solid black;
+}
+
+.container__btn {
+	/* background-color: yellowgreen; */
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}

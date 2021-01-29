@@ -4,7 +4,7 @@ import '../styles/NotFound.css'
 const Error404 = () =>
 (
     <div className="container notFound">
-        <h2>Error 404</h2>
+        <h1>Error 404</h1>
         <Link className="link notFound" to="/">
             <div className="btn btn_notFound notFound">Home</div>
         </Link>
